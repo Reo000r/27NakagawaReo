@@ -1,0 +1,15 @@
+{
+  "title": "TestTittle",
+  "notes": [
+    {"timing": "0.5","type": "A"},
+    {"timing": "3","type": "B"},
+    {"timing": "6.5","type": "A"},
+    {"timing": "7","type": "B"}
+  ],
+  "gimicks": [
+    {"timingX": "0.5","timingY": "0.5","type": "A"},
+    {"timingX": "3","timingY": "0.5","type": "B"},
+    {"timingX": "6.5","timingY": "0.5","type": "A"},
+    {"timingX": "7","timingY": "0.5","type": "B"}
+  ]
+}

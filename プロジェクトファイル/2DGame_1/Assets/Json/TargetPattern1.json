@@ -1,0 +1,41 @@
+{
+  "title": "TargetPattern",
+  "pattern0": [
+    {"posX": "99.0","posY": "99.0","timing":"1.0","speed": "0.3","staytime": "0.8","type":"0"},
+    {"posX": "99.0","posY": "99.0","timing":"0.7","speed": "0.3","staytime": "0.8","type":"0"},
+    {"posX": "99.0","posY": "99.0","timing":"0.7","speed": "0.3","staytime": "0.8","type":"0"},
+    {"posX": "99.0","posY": "99.0","timing":"0.7","speed": "0.2","staytime": "0.4","type":"2"},
+    {"posX": "99.0","posY": "99.0","timing":"0.0","speed": "0.2","staytime": "0.4","type":"1"}
+  ],
+  "pattern1": [
+    {"posX": "-7.00","posY": "-3.0","timing":"5.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": "-4.66","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-2.33","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-0.00","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": " 2.33","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": " 4.66","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": " 7.00","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": "-7.00","posY": " 0.0","timing":"1.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-4.66","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": "-2.33","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": "-0.00","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": " 2.33","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": " 4.66","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": " 7.00","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-7.00","posY": " 3.0","timing":"1.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": "-4.66","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-2.33","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": "-0.00","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": " 2.33","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": " 4.66","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"},
+    {"posX": " 7.00","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"}
+  ],
+  "pattern2": [
+    {"posX": "-7.0","posY": "-3.0","timing":"5.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": " 7.0","posY": "-3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"2"},
+    {"posX": "-7.0","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": " 7.0","posY": " 3.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"1"},
+    {"posX": " 0.0","posY": " 0.0","timing":"0.0","speed": "0.3","staytime": "2.0","type":"0"}
+  ],
+  "patternNum": "3"
+}

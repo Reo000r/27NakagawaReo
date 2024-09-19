@@ -1,0 +1,41 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ResultSoundManager : MonoBehaviour
+{
+    [SerializeField] private AudioSource _resultBGMSource;
+    [SerializeField] private AudioSource _buttonSESource;
+    [SerializeField] private AudioSource _sceneChangeSESource;
+
+    private const float kMaxBGMVol = 0.3f;
+    private const float kFadeOutTime = 3.0f;
+
+    private bool isResultBGMFadeOut = false;
+    private float fadeTime = 0.0f;
+    
+    public bool IsResultBGMFadeOut { set { isResultBGMFadeOut = value; } }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (isResultBGMFadeOut)
+        {
+            fadeTime += Time.deltaTime;
+            if (fadeTime >= kFadeOutTime)
+            {
+                fadeTime = kFadeOutTime;
+                isResultBGMFadeOut = false;
+            }
+            float vol = (float)(1.0 - fadeTime / kFadeOutTime);
+            _resultBGMSource.volume = vol * kMaxBGMVol;
+        }
+    }
+}
